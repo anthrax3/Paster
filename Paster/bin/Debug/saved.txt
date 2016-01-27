@@ -1,0 +1,183 @@
+[ 04:18 pm    27/01/2016 ]
+                return x;
+
+
+
+[ 04:19 pm    27/01/2016 ]
+return 
+
+
+[ 04:19 pm    27/01/2016 ]
+return
+
+
+[ 04:26 pm    27/01/2016 ]
+return
+
+
+[ 04:32 pm    27/01/2016 ]
+\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+[ 04:33 pm    27/01/2016 ]
+\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+[ 04:34 pm    27/01/2016 ]
+C:\Users\GersyWin\AppData\Local\Temp\\..\..\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\paster.exe
+
+
+[ 04:35 pm    27/01/2016 ]
+C:\Users\GersyWin\AppData\Local\Temp\\..\..\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\paster.exe
+
+
+[ 04:39 pm    27/01/2016 ]
+global::Paster.Properties.Settings.Default.RunOnStartup;
+
+
+[ 04:39 pm    27/01/2016 ]
+\AppData
+
+
+[ 04:39 pm    27/01/2016 ]
+[ 04:39 pm    27/01/2016 ]
+
+
+[ 04:41 pm    27/01/2016 ]
+[ 04:39 pm    27/01/2016 ].   [ 04:39 pm    27/01/2016 ]
+
+
+[ 04:41 pm    27/01/2016 ]
+[ 04:39 pm    27/01/2016 ]
+.   [ 04:39 pm    27/01/2016 ]
+
+
+[ 04:41 pm    27/01/2016 ]
+.   [ 04:39 pm    27/01/2016 ]
+
+
+[ 04:41 pm    27/01/2016 ]
+/20
+
+
+[ 04:43 pm    27/01/2016 ]
+using System.Threading;
+
+[DllImport("user32.dll")]
+[return: MarshalAs(UnmanagedType.Bool)]
+static extern bool SetForegroundWindow(IntPtr hWnd);
+
+/// <summary>
+/// The main entry point for the application.
+/// </summary>
+[STAThread]
+static void Main()
+{
+   bool createdNew = true;
+   using (Mutex mutex = new Mutex(true, "MyApplicationName", out createdNew))
+   {
+      if (createdNew)
+      {
+         Application.EnableVisualStyles();
+         Application.SetCompatibleTextRenderingDefault(false);
+         Application.Run(new MainForm());
+      }
+      else
+      {
+         Process current = Process.GetCurrentProcess();
+         foreach (Process process in Process.GetProcessesByName(current.ProcessName))
+         {
+            if (process.Id != current.Id)
+            {
+               SetForegroundWindow(process.MainWindowHandle);
+               break;
+            }
+         }
+      }
+   }
+}
+
+
+[ 04:47 pm    27/01/2016 ]
+
+
+[DllImport("user32.dll")]
+[return: MarshalAs(UnmanagedType.Bool)]
+static extern bool SetForegroundWindow(IntPtr hWnd);
+
+/// <summary>
+/// The main entry point for the application.
+/// </summary>
+[STAThread]
+static void Main()
+{
+   bool createdNew = true;
+   using (Mutex mutex = new Mutex(true, "MyApplicationName", out createdNew))
+   {
+      if (createdNew)
+      {
+         Application.EnableVisualStyles();
+         Application.SetCompatibleTextRenderingDefault(false);
+         Application.Run(new MainForm());
+      }
+      else
+      {
+         Process current = Process.GetCurrentProcess();
+         foreach (Process process in Process.GetProcessesByName(current.ProcessName))
+         {
+            if (process.Id != current.Id)
+            {
+               SetForegroundWindow(process.MainWindowHandle);
+               break;
+            }
+         }
+      }
+   }
+}
+
+
+[ 04:48 pm    27/01/2016 ]
+  static Mutex mutex = new Mutex(true, "{8F6F0AC4-B9A1-45fd-A8CF-72F04E6BDE8F}");
+    [STAThread]
+    static void Main() {
+        if(mutex.WaitOne(TimeSpan.Zero, true)) {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+            mutex.ReleaseMutex();
+        } else {
+            MessageBox.Show("only one instance at a time");
+        }
+    }
+
+
+[ 04:49 pm    27/01/2016 ]
+ try { Application.Run(new Form1()); }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
+
+
+[ 04:50 pm    27/01/2016 ]
+ try { Application.Run(new Form1()); }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
+
+
+[ 04:51 pm    27/01/2016 ]
+ try { Application.Run(new Form1()); }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
+
+
+[ 04:53 pm    27/01/2016 ]
+
+
+[ 04:55 pm    27/01/2016 ]
+       if (!System.IO.File.Exists(startup_path))
+                        System.IO.File.Copy(Application.ExecutablePath, startup_path);
+
+
+[ 04:55 pm    27/01/2016 ]
+       if (!System.IO.File.Exists(startup_path))
+                        System.IO.File.Copy(Application.ExecutablePath, startup_path);
+
+
+[ 05:16 pm    27/01/2016 ]
+__stop__

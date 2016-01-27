@@ -1,0 +1,9 @@
+c:\users\gersywin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster.csprojResolveAssemblyReference.cache
+c:\users\gersywin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster.Form1.resources
+c:\users\gersywin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster.Properties.Resources.resources
+c:\users\gersywin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster.csproj.GenerateResource.Cache
+C:\Users\GersyWin\documents\visual studio 2012\Projects\Paster\Paster\bin\Debug\Paster v1.0.exe
+C:\Users\GersyWin\documents\visual studio 2012\Projects\Paster\Paster\bin\Debug\Paster v1.0.pdb
+C:\Users\GersyWin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster v1.0.exe
+C:\Users\GersyWin\documents\visual studio 2012\Projects\Paster\Paster\obj\Debug\Paster v1.0.pdb
+C:\Users\GersyWin\documents\visual studio 2012\Projects\Paster\Paster\bin\Debug\Paster v1.0.exe.config
