@@ -11,3 +11,8 @@ Windows OS
 
 <h3>screenShot<h3>
 <img src='http://i.imgur.com/9j40UV0.png' />
+
+
+</br>
+<h3> Download </h3>
+<a href='https://www.mediafire.com/?5az1e9bw6inrs1n' >Download EXE File </a>
