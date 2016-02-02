@@ -14,5 +14,6 @@ Windows OS
 
 
 </br>
-<h3> Download </h3>
-<a href='https://www.mediafire.com/?5az1e9bw6inrs1n' >Download EXE File </a>
+<h3> Download EXE </h3>
+<a href='https://www.mediafire.com/?5az1e9bw6inrs1n' >Mediafire </a>
+
