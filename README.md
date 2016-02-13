@@ -19,5 +19,7 @@ Windows OS
 
 <a href='http://up.top4top.net/downloadf-32hk3x1-zip.html' >Top4Top </a>
 
+<a href="http://www.softpedia.com/get/Office-tools/Clipboard/Paster-Yasser-Gersy.shtml" > Softpedia </a>
+
 
 
